@@ -1,0 +1,20 @@
+{
+  "name": "simple-markdown-snippets",
+  "displayName": "simple-markdown-snippets",
+  "description": "Snippets for simple markdown like bold, code, frontmatter, etc.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "markdown",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
