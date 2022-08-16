@@ -5,23 +5,31 @@ I didn't add the usual markdown snippets on here because vs code already has tha
 
 ## Features
 
-using the '!' gives you access to snippets like: !codeblock, !fmatter, !fmatter-sidebar, !admo, among others!
+using the '!' gives you access to snippets like: !codeblock, !fmatter, !fmatter-sidebar, !admo, among others
 
-NOTE: ADD ANIMATIONS HERE
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Examples
+!fmatter and then !author
 
-For example if there is an image subfolder under your extension project workspace:
+![tinywow_fmatter-with-author_4435317](https://user-images.githubusercontent.com/9417970/184831740-6c180455-72e2-4986-955c-1a9c5a83dd1e.gif)
 
-\!\[feature X\]\(images/feature-x.png\)
+!codeblock
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![tinywow_codeblock_4435261](https://user-images.githubusercontent.com/9417970/184831874-3143b432-107c-4cec-b3e6-60969ed67a08.gif)
+
+!admonition
+
+![tinywow_admonition_4435162](https://user-images.githubusercontent.com/9417970/184831951-f9f67639-c31c-47c5-99a6-51b90447578d.gif)
+
+!export-component
+
+![tinywow_react-export-component_4435330](https://user-images.githubusercontent.com/9417970/184832206-c4e33074-f5fa-4856-91ae-48a39442fa48.gif)
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
 This extension should work with .md files out of the box. For .mdx files, you would need to make file associations. To do that, simply click on the Plain Text at the bottom right of vs code and then 'Configure File Association for .mdx' then search for Markdown then you should be all set!
+
+![tinywow_Screen Recording 2022-08-16 at 4 21 19 PM_4435553](https://user-images.githubusercontent.com/9417970/184833315-abc5479f-7643-4850-9e37-cd9408dcc326.gif)
 
 To make it easier for you, here's the relevant settings.json configuration:
 ```
@@ -41,20 +49,9 @@ To make it easier for you, here's the relevant settings.json configuration:
     }
 ```
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+None so far.
 
 ## Contribution
 
