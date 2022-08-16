@@ -76,8 +76,9 @@ Feel free to send a PR for any bugs or features you want to add on to this.
 
 Added snippets to main docusaurs, markdown, mdx code that isn't covered by vs codes built in markdown snippets.
 
-### 1.0.0
+### 0.0.2
 
 Initial release of simple-markdown-snippets.
+Added markdown snippets used for mdx or docusaurus that aren't already built in in vs code... except for links, probably will delete that later.
 
 **Enjoy!**
