@@ -1,8 +1,13 @@
 # simple-markdown-snippets README
 
-This is the README for your extension "simple-markdown-snippets". After writing up a brief description, we recommend including the following sections.
+This is a vscode extension snippet inspired by my lazyness to not memorize markdown symbols for docusaurus with mdx.
+I didn't add the usual markdown snippets on here because vs code already has that built in.
 
 ## Features
+
+using the '!' gives you access to snippets like: !codeblock, !fmatter, !fmatter-sidebar, !admo, among others!
+
+NOTE: ADD ANIMATIONS HERE
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
@@ -15,6 +20,26 @@ For example if there is an image subfolder under your extension project workspac
 ## Requirements
 
 If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+
+This extension should work with .md files out of the box. For .mdx files, you would need to make file associations. To do that, simply click on the Plain Text at the bottom right of vs code and then 'Configure File Association for .mdx' then search for Markdown then you should be all set!
+
+To make it easier for you, here's the relevant settings.json configuration:
+```
+    "editor.quickSuggestions": {
+        "comments": "inline",
+        "strings": "inline"
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "inline",
+            "strings": "inline"
+        }
+    },
+    "files.associations": {
+        "*.mdx": "markdown"
+    }
+```
 
 ## Extension Settings
 
@@ -31,35 +56,16 @@ This extension contributes the following settings:
 
 Calling out known issues can help limit users opening duplicate issues against your extension.
 
+## Contribution
+
+Feel free to send a PR for any bugs or features you want to add on to this.
+
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Added snippets to main docusaurs, markdown, mdx code that isn't covered by vs codes built in markdown snippets.
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Initial release of simple-markdown-snippets.
 
 **Enjoy!**
