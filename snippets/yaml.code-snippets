@@ -1,0 +1,13 @@
+{
+    "Markdown Frontmatter Author Snippet": {
+        "prefix": "!author",
+        "body": [
+            " ",
+            "- name: $1",
+            "  title: $2",
+            "  url: $3",
+            "  image_url: $4"
+        ],
+        "description": "Markdown 'author' template for front matter"
+    }
+}

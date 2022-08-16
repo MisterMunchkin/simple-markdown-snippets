@@ -1,1 +1,93 @@
-{}
+{
+    "Markdown Code Snippet": {
+        "prefix": "!codeblock",
+        "body": [
+            "```${1|markup,bash,clike,c,cpp,css,javascript,jsx,coffeescript,diff,git,go,graphql,handlebars,json,less,makefile,markdown,objectivec,ocaml,python,reason,sass,scss,sql,stylus,tsx,typescript,wasm,yaml|} title='${2:Title}'",
+            "$0",
+            "```"
+        ],
+        "description": "Markdown 'code' template"
+    },
+    "Markdown Link Snippet": {
+        "prefix": "!link",
+        "body": "[${1:name}](${2:address})",
+        "description": "Markdown 'link' template"
+    },
+    "Markdown Frontmatter Snippet": {
+        "prefix": "!fmatter",
+        "body": [
+            "---",
+            "slug: $1",
+            "title: $2",
+            "authors: $3",
+            "tags: [$4]",
+            "---"
+        ],
+        "description": "Markdown 'front matter' template"
+    },
+    "Markdown Frontmatter Sidebar Snippet": {
+        "prefix": "!fmatter-sidebar",
+        "body": [
+            "---",
+            "sidebar_label: $1",
+            "sidebar_position: $2",
+            "---"
+        ],
+    },
+    // "Markdown H1 Snippet": {
+    //     "prefix": "!h1",
+    //     "body": "# $1",
+    //     "description": "Markdown 'H1' template"
+    // },
+    // "Markdown H2 Snippet": {
+    //     "prefix": "!h2",
+    //     "body": "# $1",
+    //     "description": "Markdown 'H2' template"
+    // },
+    // "Markdown H3 Snippet": {
+    //     "prefix": "!h3",
+    //     "body": "# $1",
+    //     "description": "Markdown 'H3' template"
+    // },
+    // "Markdown Bold Snippet": {
+    //     "prefix": "!bold",
+    //     "body": "**$1**",
+    //     "description": "Markdown 'bold' template"
+    // },
+    "Markdown Admonitions": {
+        "prefix": "!admo",
+        "body": [
+            ":::${1|note,tip,info,caution,danger|} ${2:title}",
+            "$0",
+            ":::"
+        ],
+        "description": "Markdown 'admonition' template."
+    },
+    "Markdown React Export Components": {
+        "prefix": "!export-component",
+        "body": [
+            "export const ${1:name} = ({${2:prop1}, ${3:prop2}}) => (",
+            "$0",
+            ");"
+        ],
+        "description": "Markdown 'ReactJs Export Component' template"
+    },
+    "Markdown React Import Components": {
+        "prefix": "!import-component",
+        "body": "import ${1:name} from '${2:path}';",
+        "description": "Markdown 'ReactJs Import Component' template"
+    },
+    "Mardown React Tab": {
+        "prefix": "!tab",
+        "body": [
+            "<Tabs>",
+            "   <TabItem value='$1'>$0</TabItem>",
+            "</Tabs>"
+        ]
+    },
+    "Markdown React Element": {
+        "prefix": "!element",
+        "body": "<$1>$0</$1>",
+        "description": "Mardown 'React element' template"
+    }
+}
