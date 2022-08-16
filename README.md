@@ -83,6 +83,6 @@ Added markdown snippets used for mdx or docusaurus that aren't already built in 
 
 ### 0.0.3
 
-Added new logo. Pretty muched copied my favorite vs code theme [Ariake Dark](https://github.com/a-wart/ariake-dark).
+Added new logo. Pretty much copied my favorite vs code theme [Ariake Dark](https://github.com/a-wart/ariake-dark).
 
 **Enjoy!**
