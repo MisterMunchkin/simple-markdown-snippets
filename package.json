@@ -2,7 +2,8 @@
   "name": "simple-markdown-snippets",
   "displayName": "simple-markdown-snippets",
   "description": "Snippets for simple markdown like bold, code, frontmatter, etc.",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "icon": "images/logo.PNG",
   "publisher": "MisterMunchkin",
   "repository": {
     "type": "git",

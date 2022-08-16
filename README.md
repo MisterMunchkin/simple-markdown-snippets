@@ -81,4 +81,8 @@ Added snippets to main docusaurs, markdown, mdx code that isn't covered by vs co
 Initial release of simple-markdown-snippets.
 Added markdown snippets used for mdx or docusaurus that aren't already built in in vs code... except for links, probably will delete that later.
 
+### 0.0.3
+
+Added new logo. Pretty muched copied my favorite vs code theme [Ariake Dark](https://github.com/a-wart/ariake-dark).
+
 **Enjoy!**
