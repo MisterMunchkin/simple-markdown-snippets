@@ -25,6 +25,21 @@ using the '!' gives you access to snippets like: !codeblock, !fmatter, !fmatter-
 
 ![tinywow_react-export-component_4435330](https://user-images.githubusercontent.com/9417970/184832206-c4e33074-f5fa-4856-91ae-48a39442fa48.gif)
 
+### List of Snippets
+- !codeblock: codeblock with language option and title tab stops
+- !link: vs code already has a snippet for link so might remove this
+- !fmatter: snippet for the front matter with slug, title, authors, tags properties
+- !fmatter-sidebar: snippet for the front matter with sidebar_label, and sidebar_position properties
+- !admo: snippet for admonitions with type options
+- !export-component: snippet for react export component with two prop options
+- !import-components: snippet for react import component with name and path tabstops
+- !tab: snippet for docusaurus-mdx tab with tabItem
+- !element: snippet for React element
+
+I also added a yaml.code-snippets so !authors would work
+while editing in the front matter
+- !author: author yaml code with name, title, url, image_url tabstops
+
 ## Requirements
 
 This extension should work with .md files out of the box. For .mdx files, you would need to make file associations. To do that, simply click on the Plain Text at the bottom right of vs code and then 'Configure File Association for .mdx' then search for Markdown then you should be all set!
