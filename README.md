@@ -1,4 +1,4 @@
-# simple-markdown-snippets README
+# Markdown Snippets for MDX and Docusaurus README
 
 This is a vscode extension snippet inspired by my lazyness to not memorize markdown symbols for docusaurus with mdx.
 I didn't add the usual markdown snippets on here because vs code already has that built in.
@@ -8,24 +8,24 @@ I didn't add the usual markdown snippets on here because vs code already has tha
 using the '!' gives you access to snippets like: !codeblock, !fmatter, !fmatter-sidebar, !admo, among others
 
 
-### Examples
-!fmatter and then !author
+## Examples
+### !fmatter and then !author
 
 ![tinywow_fmatter-with-author_4435317](https://user-images.githubusercontent.com/9417970/184831740-6c180455-72e2-4986-955c-1a9c5a83dd1e.gif)
 
-!codeblock
+### !codeblock
 
 ![tinywow_codeblock_4435261](https://user-images.githubusercontent.com/9417970/184831874-3143b432-107c-4cec-b3e6-60969ed67a08.gif)
 
-!admonition
+### !admonition
 
 ![tinywow_admonition_4435162](https://user-images.githubusercontent.com/9417970/184831951-f9f67639-c31c-47c5-99a6-51b90447578d.gif)
 
-!export-component
+###  !export-component
 
 ![tinywow_react-export-component_4435330](https://user-images.githubusercontent.com/9417970/184832206-c4e33074-f5fa-4856-91ae-48a39442fa48.gif)
 
-### List of Snippets
+## List of Snippets
 - !codeblock: codeblock with language option and title tab stops
 - !link: vs code already has a snippet for link so might remove this
 - !fmatter: snippet for the front matter with slug, title, authors, tags properties
@@ -74,15 +74,21 @@ Feel free to send a PR for any bugs or features you want to add on to this.
 
 ## Release Notes
 
-Added snippets to main docusaurs, markdown, mdx code that isn't covered by vs codes built in markdown snippets.
+### 0.0.4
+Changed name so it's clearer what the snippets are specifically for. 
+- Changed README.md format a little bit
+
+### 0.0.3
+
+Added new logo. Pretty much copied my favorite vs code theme [Ariake Dark](https://github.com/a-wart/ariake-dark).
 
 ### 0.0.2
 
 Initial release of simple-markdown-snippets.
 Added markdown snippets used for mdx or docusaurus that aren't already built in in vs code... except for links, probably will delete that later.
 
-### 0.0.3
+### 0.0.1
 
-Added new logo. Pretty much copied my favorite vs code theme [Ariake Dark](https://github.com/a-wart/ariake-dark).
+Added snippets to main docusaurs, markdown, mdx code that isn't covered by vs codes built in markdown snippets.
 
 **Enjoy!**

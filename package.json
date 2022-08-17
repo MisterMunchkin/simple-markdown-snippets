@@ -1,8 +1,8 @@
 {
   "name": "simple-markdown-snippets",
-  "displayName": "simple-markdown-snippets",
-  "description": "Snippets for simple markdown like bold, code, frontmatter, etc.",
-  "version": "0.0.3",
+  "displayName": "Markdown Snippets for MDX and Docusaurus",
+  "description": "Snippets for front matter, react export/import, and other mdx/docusaurus markdown.",
+  "version": "0.0.4",
   "icon": "images/logo.PNG",
   "publisher": "MisterMunchkin",
   "repository": {
