@@ -7,23 +7,10 @@ I didn't add the usual markdown snippets on here because vs code already has tha
 
 using the '!' gives you access to snippets like: !codeblock, !fmatter, !fmatter-sidebar, !admo, among others
 
-
 ## Examples
-### !fmatter and then !author
-
-![tinywow_fmatter-with-author_4435317](https://user-images.githubusercontent.com/9417970/184831740-6c180455-72e2-4986-955c-1a9c5a83dd1e.gif)
-
-### !codeblock
-
-![tinywow_codeblock_4435261](https://user-images.githubusercontent.com/9417970/184831874-3143b432-107c-4cec-b3e6-60969ed67a08.gif)
-
-### !admonition
-
-![tinywow_admonition_4435162](https://user-images.githubusercontent.com/9417970/184831951-f9f67639-c31c-47c5-99a6-51b90447578d.gif)
-
-###  !export-component
-
-![tinywow_react-export-component_4435330](https://user-images.githubusercontent.com/9417970/184832206-c4e33074-f5fa-4856-91ae-48a39442fa48.gif)
+![Screen Recording 2022-08-21 at 1 44 30 PM copy](https://user-images.githubusercontent.com/9417970/185778430-01e54351-a440-4462-8934-c2cb487b448b.gif)
+![Screen Recording 2022-08-21 at 1 44 30 PM copy-2](https://user-images.githubusercontent.com/9417970/185778847-adf2e6a8-fe45-402d-b95b-8035bc9c5e85.gif)
+![Screen Recording 2022-08-21 at 1 44 30 PM copy-3](https://user-images.githubusercontent.com/9417970/185778986-040c9555-a9c9-41db-a1d5-f5aa89f6f798.gif)
 
 ## List of Snippets
 - !codeblock: codeblock with language option and title tab stops
@@ -43,8 +30,6 @@ while editing in the front matter
 ## Requirements
 
 This extension should work with .md files out of the box. For .mdx files, you would need to make file associations. To do that, simply click on the Plain Text at the bottom right of vs code and then 'Configure File Association for .mdx' then search for Markdown then you should be all set!
-
-![tinywow_Screen Recording 2022-08-16 at 4 21 19 PM_4435553](https://user-images.githubusercontent.com/9417970/184833315-abc5479f-7643-4850-9e37-cd9408dcc326.gif)
 
 To make it easier for you, here's the relevant settings.json configuration:
 ```
@@ -66,13 +51,16 @@ To make it easier for you, here's the relevant settings.json configuration:
 
 ## Known Issues
 
-None so far.
+None so far as this is still new.
 
 ## Contribution
 
 Feel free to send a PR for any bugs or features you want to add on to this.
 
 ## Release Notes
+
+### 0.0.5
+Updated READMe.md to have better gifs and wording.
 
 ### 0.0.4
 Changed name so it's clearer what the snippets are specifically for. 
