@@ -49,6 +49,10 @@ To make it easier for you, here's the relevant settings.json configuration:
     }
 ```
 
+## Installation
+
+VS Code Market Place: [Markdown Snippets for MDX and Docusaurus](https://marketplace.visualstudio.com/items?itemName=MisterMunchkin.simple-markdown-snippets)
+
 ## Known Issues
 
 None so far as this is still new.
