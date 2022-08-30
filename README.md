@@ -22,31 +22,67 @@ using the '!' gives you access to snippets like: !codeblock, !fmatter, !fmatter-
 - !import-components: snippet for react import component with name and path tabstops
 - !tab: snippet for docusaurus-mdx tab with tabItem
 - !element: snippet for React element
+- !bold: snippet that works with selected text keybinding for **bold**
+- !italic: snippet that works with selected text keybinding for *italic*
+- !code: snippet that works with selected text keybinding for `code`
 
 I also added a yaml.code-snippets so !authors would work
 while editing in the front matter
 - !author: author yaml code with name, title, url, image_url tabstops
+- !seo: all SEO related front matter properties described here [Docusaurus SEO](https://docusaurus.io/docs/seo)
 
 ## Requirements
 
 This extension should work with .md files out of the box. For .mdx files, you would need to make file associations. To do that, simply click on the Plain Text at the bottom right of vs code and then 'Configure File Association for .mdx' then search for Markdown then you should be all set!
 
 To make it easier for you, here's the relevant settings.json configuration:
-```
+```json title='settings.json'
+"editor.quickSuggestions": {
+    "comments": "inline",
+    "strings": "inline"
+},
+"[markdown]": {
     "editor.quickSuggestions": {
+        "other": "on",
         "comments": "inline",
         "strings": "inline"
-    },
-    "[markdown]": {
-        "editor.quickSuggestions": {
-            "other": "on",
-            "comments": "inline",
-            "strings": "inline"
-        }
-    },
-    "files.associations": {
-        "*.mdx": "markdown"
     }
+},
+"files.associations": {
+    "*.mdx": "markdown"
+}
+```
+
+I also wanted **Bold**, `Code`, and *Italics* to work with select text and keybinding. So you can add this to your **keybindings.json** and update the keybinding to whatever you prefer
+
+```json title='keybindings.json'
+{
+    "key": "cmd+shift+b",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+        "langId": "markdown",
+        "name": "Markdown Bold Selected Text"
+    }
+},
+{
+    "key": "cmd+shift+c",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+        "langId": "markdown",
+        "name": "Markdown Code Selected Text"
+    }
+},
+{
+    "key": "cmd+shift+i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+        "langId": "markdown",
+        "name": "Markdown Italic Selected Text"
+    }
+}
 ```
 
 ## Installation
@@ -55,7 +91,7 @@ VS Code Market Place: [Markdown Snippets for MDX and Docusaurus](https://marketp
 
 ## Known Issues
 
-None so far as this is still new.
+There's no way to add keybindings directly onto the snippet extension. So you need to add the keybindings.json mentioned above to actually use the **Bold**, *Italic*, and `Code` selected text keybindings.
 
 ## Contribution
 
@@ -64,5 +100,9 @@ Feel free to send a PR for any bugs or features you want to add on to this.
 ## Release Notes
 
 All version notes are now in CHANGELOG.md.
+
+## Closing Thoughts
+
+If you enjoy this VS Code extension, you can [buy me a ☕️](https://www.paypal.com/donate/?hosted_button_id=B9HDECYJ4CEF8). I also have a [blog site](https://blog.robindalmy.com) I write to where I use this extension regularly and update it whenever I run into any issues or improvements I want to add while actually making blogs. 
 
 **Enjoy!**

@@ -9,5 +9,13 @@
             "  image_url: $4"
         ],
         "description": "Markdown 'author' template for front matter"
+    },
+    "Markdown Frontmatter SEO Snippet": {
+        "prefix": "!seo",
+        "body": [
+            "description: $1",
+            "keywords: [$2]",
+            "image: $3"
+        ]
     }
 }

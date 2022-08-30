@@ -2,6 +2,12 @@
 
 All notable changes to the "simple-markdown-snippets" extension will be documented in this file.
 
+### [0.0.7]
+- Added !seo on yaml to produce a list of properties specifically for SEO. learn more about [Docusaurus Seo](https://docusaurus.io/docs/seo)
+- Added bold, italic, and code that is "selected text key binding" enabled. Please see README.md for keybindings under Requirements.
+- Fixed formatting for Tab snippets, old one didn't work if you added a codeblock inside the Tab Item.
+- Added import options on *!import-component*. Right now it only has Tab and TabItem import but planning to add as I go along and use React Components more often on my blogs.
+
 ### [0.0.6]
 Properly adding version notes to CHANGELOG.md instead of README.md
 
