@@ -33,6 +33,8 @@ while editing in the front matter
 
 ## Requirements
 
+### MDX Support
+
 This extension should work with .md files out of the box. For .mdx files, you would need to make file associations. To do that, simply click on the Plain Text at the bottom right of vs code and then 'Configure File Association for .mdx' then search for Markdown then you should be all set!
 
 To make it easier for you, here's the relevant settings.json configuration:
@@ -52,7 +54,7 @@ To make it easier for you, here's the relevant settings.json configuration:
     "*.mdx": "markdown"
 }
 ```
-
+### Keybindings on Selected Text Support
 I also wanted **Bold**, `Code`, and *Italics* to work with select text and keybinding. So you can add this to your **keybindings.json** and update the keybinding to whatever you prefer
 
 ```json title='keybindings.json'
