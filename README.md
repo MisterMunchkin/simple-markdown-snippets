@@ -5,7 +5,7 @@ I didn't add the usual markdown snippets on here because vs code already has tha
 
 ## Features
 
-using the '!' gives you access to snippets like: !codeblock, !fmatter, !fmatter-sidebar, !admo, among others
+using the '!' gives you access to snippets like: !codeblock, !fmatter, !fmatter-sidebar, !admo, among [others](#list-of-snippets). **Bold**, `Code`, and *Italics* are also enabled to work with [Selected Text Keybinding](#keybindings-on-selected-text-support)
 
 ## Examples
 ![Screen Recording 2022-08-21 at 1 44 30 PM copy](https://user-images.githubusercontent.com/9417970/185778430-01e54351-a440-4462-8934-c2cb487b448b.gif)
@@ -13,31 +13,31 @@ using the '!' gives you access to snippets like: !codeblock, !fmatter, !fmatter-
 ![Screen Recording 2022-08-21 at 1 44 30 PM copy-3](https://user-images.githubusercontent.com/9417970/185778986-040c9555-a9c9-41db-a1d5-f5aa89f6f798.gif)
 
 ## List of Snippets
-- !codeblock: codeblock with language option and title tab stops
-- !link: vs code already has a snippet for link so might remove this
-- !fmatter: snippet for the front matter with slug, title, authors, tags properties
-- !fmatter-sidebar: snippet for the front matter with sidebar_label, and sidebar_position properties
-- !admo: snippet for admonitions with type options
-- !export-component: snippet for react export component with two prop options
-- !import-components: snippet for react import component with name and path tabstops
-- !tab: snippet for docusaurus-mdx tab with tabItem
-- !element: snippet for React element
-- !bold: snippet that works with selected text keybinding for **bold**
-- !italic: snippet that works with selected text keybinding for *italic*
-- !code: snippet that works with selected text keybinding for `code`
+- **!codeblock**: codeblock with language option and title tab stops
+- **!link**: vs code already has a snippet for link so might remove this
+- **!fmatter**: snippet for the front matter with slug, title, authors, tags properties
+- **!fmatter-sidebar**: snippet for the front matter with sidebar_label, and sidebar_position properties
+- **!admo**: snippet for admonitions with type options
+- **!export-component**: snippet for react export component with two prop options
+- **!import-components**: snippet for react import component with name and path tabstops
+- **!tab**: snippet for docusaurus-mdx tab with tabItem
+- **!element**: snippet for React element
+- **!bold**: snippet that works with selected text keybinding for **bold**
+- **!italic**: snippet that works with selected text keybinding for *italic*
+- **!code**: snippet that works with selected text keybinding for `code`
 
 I also added a yaml.code-snippets so !authors would work
 while editing in the front matter
-- !author: author yaml code with name, title, url, image_url tabstops
-- !seo: all SEO related front matter properties described here [Docusaurus SEO](https://docusaurus.io/docs/seo)
+- **!author**: author yaml code with name, title, url, image_url tabstops
+- **!seo**: all SEO related front matter properties described here [Docusaurus SEO](https://docusaurus.io/docs/seo)
 
 ## Requirements
 
 ### MDX Support
 
-This extension should work with .md files out of the box. For .mdx files, you would need to make file associations. To do that, simply click on the Plain Text at the bottom right of vs code and then 'Configure File Association for .mdx' then search for Markdown then you should be all set!
+This extension should work with .md files out of the box. For .mdx files, you would need to make file associations. To do that, simply click on the Plain Text at the bottom right of vs code and then '*Configure File Association for .mdx*'. Search for Markdown then you should be all set!
 
-To make it easier for you, here's the relevant settings.json configuration:
+To make it easier for you, here's the relevant *settings.json* configuration:
 ```json title='settings.json'
 "editor.quickSuggestions": {
     "comments": "inline",
@@ -55,7 +55,7 @@ To make it easier for you, here's the relevant settings.json configuration:
 }
 ```
 ### Keybindings on Selected Text Support
-I also wanted **Bold**, `Code`, and *Italics* to work with select text and keybinding. So you can add this to your **keybindings.json** and update the keybinding to whatever you prefer
+I also wanted **Bold**, `Code`, and *Italics* to work with selected text keybinding. So you can add this to your **keybindings.json** and update the keybinding to whatever you prefer
 
 ```json title='keybindings.json'
 {
@@ -105,6 +105,6 @@ All version notes are now in CHANGELOG.md.
 
 ## Closing Thoughts
 
-If you enjoy this VS Code extension, you can [buy me a ☕️](https://www.paypal.com/donate/?hosted_button_id=B9HDECYJ4CEF8). I also have a [blog site](https://blog.robindalmy.com) I write to where I use this extension regularly and update it whenever I run into any issues or improvements I want to add while actually making blogs. 
+If you enjoy this VS Code extension, you can [buy me a ☕️](https://www.paypal.com/donate/?hosted_button_id=B9HDECYJ4CEF8). I also have a [blog site](https://blog.robindalmy.com) where I use this extension regularly, and update it whenever I run into any issues or improvements I want to add while actually making blogs. 
 
 **Enjoy!**
