@@ -1,11 +1,12 @@
 # Markdown Snippets for MDX and Docusaurus README
 
-This is a vscode extension snippet inspired by my lazyness to not memorize markdown symbols for docusaurus with mdx.
-I didn't add the usual markdown snippets on here because vs code already has that built in.
+This is a VSCode extension snippet inspired by my laziness in not memorizing markdown symbols for Docusaurus with MDX.
 
 ## Features
 
-using the '!' gives you access to snippets like: !codeblock, !fmatter, !fmatter-sidebar, !admo, among [others](#list-of-snippets). **Bold**, `Code`, and *Italics* are also enabled to work with [Selected Text Keybinding](#keybindings-on-selected-text-support)
+Typing '!' in a .md/.mdx file gives you access to snippets like: !codeblock, !fmatter, !fmatter-sidebar, !admo, among [others](#list-of-snippets).
+
+**Bold**, `Code` and *Italics* are also enabled to work with [Selected Text Keybinding](#keybindings-on-selected-text-support)
 
 ## Examples
 ![Screen Recording 2022-08-21 at 1 44 30 PM copy](https://user-images.githubusercontent.com/9417970/185778430-01e54351-a440-4462-8934-c2cb487b448b.gif)
@@ -93,11 +94,11 @@ VS Code Market Place: [Markdown Snippets for MDX and Docusaurus](https://marketp
 
 ## Known Issues
 
-There's no way to add keybindings directly onto the snippet extension. So you need to add the keybindings.json mentioned above to actually use the **Bold**, *Italic*, and `Code` selected text keybindings.
+There's no way to add keybindings directly onto the snippet extension. So you need to add the keybindings.json mentioned above to use the **Bold**, *Italic*, and `Code` selected text keybindings.
 
 ## Contribution
 
-Feel free to send a PR for any bugs or features you want to add on to this.
+Feel free to send a PR for any bugs or features you want to add to this.
 
 ## Release Notes
 
@@ -105,6 +106,6 @@ All version notes are now in CHANGELOG.md.
 
 ## Closing Thoughts
 
-If you enjoy this VS Code extension, you can [buy me a ☕️](https://www.paypal.com/donate/?hosted_button_id=B9HDECYJ4CEF8). I also have a [blog site](https://blog.robindalmy.com) where I use this extension regularly, and update it whenever I run into any issues or improvements I want to add while actually making blogs. 
+If you enjoy this VS Code extension, you can [buy me a ☕️](https://www.paypal.com/donate/?hosted_button_id=B9HDECYJ4CEF8). I also have a [blog site](https://blog.robindalmy.com) where I use this extension regularly and update it whenever I run into any issues or improvements I want to add while making blogs. 
 
 **Enjoy!**

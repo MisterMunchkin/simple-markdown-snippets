@@ -2,6 +2,9 @@
 
 All notable changes to the "simple-markdown-snippets" extension will be documented in this file.
 
+### [0.0.8]
+- Updated README.md to have more details on the features page and better wording.
+
 ### [0.0.7]
 - Added !seo on yaml to produce a list of properties specifically for SEO. learn more about [Docusaurus Seo](https://docusaurus.io/docs/seo)
 - Added bold, italic, and code that is "selected text key binding" enabled. Please see README.md for keybindings under Requirements.
