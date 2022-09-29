@@ -2,6 +2,9 @@
 
 All notable changes to the "simple-markdown-snippets" extension will be documented in this file.
 
+### [0.0.9]
+- Updated !link to work with selected text keybinding. The text you select will be enclosed inside the `[]`.
+
 ### [0.0.8]
 - Updated README.md to have more details on the features page and better wording.
 

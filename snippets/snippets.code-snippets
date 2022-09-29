@@ -8,9 +8,9 @@
         ],
         "description": "Markdown 'code' template"
     },
-    "Markdown Link Snippet": {
+    "Markdown Link Selected Text": {
         "prefix": "!link",
-        "body": "[${1:name}](${2:address})",
+        "body": "[${TM_SELECTED_TEXT:${1:name}}](${2:address})",
         "description": "Markdown 'link' template"
     },
     "Markdown Image Snippet": {

@@ -6,7 +6,9 @@ This is a VSCode extension snippet inspired by my laziness in not memorizing mar
 
 Typing '!' in a .md/.mdx file gives you access to snippets like: !codeblock, !fmatter, !fmatter-sidebar, !admo, among [others](#list-of-snippets).
 
-**Bold**, `Code` and *Italics* are also enabled to work with [Selected Text Keybinding](#keybindings-on-selected-text-support)
+**Bold**, `Code` and *Italics* are also enabled to work with [Selected Text Keybinding](#keybindings-on-selected-text-support).
+
+**New** !link now works with selected text keybinding 🔥 The text you select will be enclosed inside the `[]`.
 
 ## Examples
 ![Screen Recording 2022-08-21 at 1 44 30 PM copy](https://user-images.githubusercontent.com/9417970/185778430-01e54351-a440-4462-8934-c2cb487b448b.gif)
@@ -15,7 +17,7 @@ Typing '!' in a .md/.mdx file gives you access to snippets like: !codeblock, !fm
 
 ## List of Snippets
 - **!codeblock**: codeblock with language option and title tab stops
-- **!link**: vs code already has a snippet for link so might remove this
+- **!link**: made use of this snippet, It now works with selected text [keybinding](#keybindings-on-selected-text-support).
 - **!fmatter**: snippet for the front matter with slug, title, authors, tags properties
 - **!fmatter-sidebar**: snippet for the front matter with sidebar_label, and sidebar_position properties
 - **!admo**: snippet for admonitions with type options
@@ -56,7 +58,7 @@ To make it easier for you, here's the relevant *settings.json* configuration:
 }
 ```
 ### Keybindings on Selected Text Support
-I also wanted **Bold**, `Code`, and *Italics* to work with selected text keybinding. So you can add this to your **keybindings.json** and update the keybinding to whatever you prefer
+I also wanted **Bold**, `Code`, and *Italics* to work with selected text keybinding. So you can add this to your **keybindings.json** and update the keybinding to whatever you prefer.
 
 ```json title='keybindings.json'
 {
@@ -84,6 +86,15 @@ I also wanted **Bold**, `Code`, and *Italics* to work with selected text keybind
     "args": {
         "langId": "markdown",
         "name": "Markdown Italic Selected Text"
+    }
+},
+{
+    "key": "cmd+shift+l",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+        "langId": "markdown",
+        "name": "Markdown Link Selected Text"
     }
 }
 ```
