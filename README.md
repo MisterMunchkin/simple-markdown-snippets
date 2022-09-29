@@ -8,7 +8,7 @@ Typing '!' in a .md/.mdx file gives you access to snippets like: !codeblock, !fm
 
 **Bold**, `Code` and *Italics* are also enabled to work with [Selected Text Keybinding](#keybindings-on-selected-text-support).
 
-**New** !link now works with selected text keybinding 🔥 The text you select will be enclosed inside the `[]`.
+🔥**New**🔥 `!link` now works with selected text keybinding. The text you highlight will be enclosed inside the `[]`.
 
 ## Examples
 ![Screen Recording 2022-08-21 at 1 44 30 PM copy](https://user-images.githubusercontent.com/9417970/185778430-01e54351-a440-4462-8934-c2cb487b448b.gif)
@@ -105,7 +105,13 @@ VS Code Market Place: [Markdown Snippets for MDX and Docusaurus](https://marketp
 
 ## Known Issues
 
-There's no way to add keybindings directly onto the snippet extension. So you need to add the keybindings.json mentioned above to use the **Bold**, *Italic*, and `Code` selected text keybindings.
+There's no way to add keybindings directly onto the snippet extension. So you need to add the keybindings.json mentioned above to use the selected text keybindings.
+
+**Current Supported Keybindings**
+- **Bold**
+- *Italic*
+- `Code`
+- [Link](#keybindings-on-selected-text-support)
 
 ## Contribution
 
