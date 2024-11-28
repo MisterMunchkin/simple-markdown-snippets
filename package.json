@@ -22,6 +22,10 @@
         "path": "./snippets/snippets.code-snippets"
       },
       {
+        "language": "mdx",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
         "language": "yaml",
         "path": "./snippets/yaml.code-snippets"
       }
